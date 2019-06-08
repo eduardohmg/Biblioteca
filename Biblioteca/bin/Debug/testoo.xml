@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Obra>
+    <Id>1</Id>
+    <Disponivel>10</Disponivel>
+    <Estoque>20</Estoque>
+  </Obra>
+  <Obra>
+    <Id>2</Id>
+    <Disponivel>22</Disponivel>
+    <Estoque>33</Estoque>
+  </Obra>
+</ArrayOfObra>
