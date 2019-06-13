@@ -9,7 +9,7 @@ namespace Biblioteca.Modelo
     public class Obra
     {
         public Int32 Id { get; set; }
-		public String Nome { get;set; }
+	public String Nome { get;set; }
         public Int32 Disponivel { get; set; }
         public Int32 Estoque { get; set; }		
     }
