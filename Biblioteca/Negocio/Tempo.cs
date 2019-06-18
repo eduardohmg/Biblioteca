@@ -16,8 +16,10 @@ namespace Biblioteca.Negocio
 
                 if (Contexto.Tempo)
                 {
+                    Contexto.SemaforoAtendente.WaitOne();
                     Contexto.DataAtual = Contexto.DataAtual.AddDays(1);
                     Util.WriteLine("Data atual alterada para " + Contexto.DataAtual);
+                    Contexto.SemaforoAtendente.Release();
                 }
             }
         }
