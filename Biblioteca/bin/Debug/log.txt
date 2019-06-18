@@ -170,3 +170,37 @@ Data atual alterada para 07/07/2019 00:00:00
 Data atual alterada para 08/07/2019 00:00:00
 Data atual alterada para 09/07/2019 00:00:00
 Data atual alterada para 10/07/2019 00:00:00
+Lendo arquivo estoque.xml
+Arquivo lido com sucesso
+Lendo arquivo clientes.xml
+Arquivo lido com sucesso
+Lendo arquivo tarefas.xml
+Arquivo lido com sucesso
+Atendente 1:  Inicializado
+Data atual alterada para 01/06/2019 00:00:00
+Atendente 1: Cliente Trevizan quer alugar a obra Harry-Poter
+Atendente 1: Cliente Trevizan alugou a obra Harry-Poter
+Data atual alterada para 02/06/2019 00:00:00
+Data atual alterada para 03/06/2019 00:00:00
+Data atual alterada para 04/06/2019 00:00:00
+Data atual alterada para 05/06/2019 00:00:00
+Data atual alterada para 06/06/2019 00:00:00
+Data atual alterada para 07/06/2019 00:00:00
+Data atual alterada para 08/06/2019 00:00:00
+Data atual alterada para 09/06/2019 00:00:00
+Lendo arquivo estoque.xml
+Arquivo lido com sucesso
+Lendo arquivo clientes.xml
+Arquivo lido com sucesso
+Lendo arquivo tarefas.xml
+Arquivo lido com sucesso
+Atendente 1:  Inicializado
+Data atual alterada para 01/06/2019 00:00:00
+Atendente 1: Cliente Trevizan quer alugar a obra Harry-Poter
+Atendente 1: Cliente Trevizan alugou a obra Harry-Poter
+Data atual alterada para 02/06/2019 00:00:00
+Data atual alterada para 03/06/2019 00:00:00
+Data atual alterada para 04/06/2019 00:00:00
+Data atual alterada para 05/06/2019 00:00:00
+Data atual alterada para 06/06/2019 00:00:00
+Data atual alterada para 07/06/2019 00:00:00

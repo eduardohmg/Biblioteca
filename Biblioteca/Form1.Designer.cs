@@ -45,12 +45,13 @@
             // txtLog
             // 
             this.txtLog.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLog.Location = new System.Drawing.Point(93, 12);
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
             this.txtLog.ReadOnly = true;
             this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtLog.Size = new System.Drawing.Size(381, 434);
+            this.txtLog.Size = new System.Drawing.Size(695, 434);
             this.txtLog.TabIndex = 1;
             // 
             // Form1
