@@ -24,31 +24,6 @@ namespace Biblioteca
             // Ler arquivo de estoque
             Util.LerArquivoEstoque("estoque.xml");
 
-
-            /*List<Cliente> clientes = new List<Cliente>();
-            Cliente cliente = new Cliente();
-            cliente.Id = 1;
-            cliente.Nome = "Teste";
-            cliente.Obras = Contexto.Estoque;
-            clientes.Add(cliente);*/
-            /*
-            List<Tarefa> tarefas = new List<Tarefa>();
-            Tarefa tarefa = new Tarefa();
-            tarefa.Data = DateTime.Parse("01/06/2019");
-            tarefa.Obra = Contexto.Estoque.ElementAt(0);
-            tarefa.Cliente = cliente;
-
-            tarefas.Add(tarefa);
-
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Tarefa>));
-            TextWriter reader = new StreamWriter("tarefas.xml");
-            serializer.Serialize(reader, tarefas);
-            */
-
-            /*XmlSerializer serializer = new XmlSerializer(typeof(List<Cliente>));
-            TextWriter reader = new StreamWriter("clientes.xml");
-            serializer.Serialize(reader, clientes);*/
-
             // Ler arquivo de clientes
             Util.LerArquivoClientes("clientes.xml");
 
