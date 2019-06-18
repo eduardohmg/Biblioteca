@@ -62,7 +62,7 @@
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.btnTempo);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Biblioteca";
             this.ResumeLayout(false);
             this.PerformLayout();
 

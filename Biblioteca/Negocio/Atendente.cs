@@ -21,7 +21,7 @@ namespace Biblioteca.Negocio
             {
                 if (!Contexto.Tempo)
                 {
-                    await Task.Delay(50);
+                    await Task.Delay(Contexto.TempoAntendente);
                     continue;
                 }
 
