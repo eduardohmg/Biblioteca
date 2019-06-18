@@ -16,7 +16,7 @@ namespace Biblioteca
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -36,7 +36,12 @@ namespace Biblioteca
             Tempo tempo = new Tempo();
             Task.Run(tempo.Run);
 
-            for (int i = 0; i < 1; i++) {
+            int atendentes = 1;
+
+            if (args.Length > 0)
+                atendentes = Convert.ToInt32(args[1]);
+
+            for (int i = 0; i < atendentes; i++) {
                 Atendente atendente = new Atendente();
                 atendente.Nome = (i+1).ToString();
                 Task.Run(atendente.Run);
