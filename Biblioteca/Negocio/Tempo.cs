@@ -12,10 +12,10 @@ namespace Biblioteca.Negocio
         {
             while (true)
             {
-                await Task.Delay(Contexto.TempoEspera);
+                await Task.Delay(Contexto.TempoDia);
 
-                Contexto.Data = Contexto.Data.AddDays(1);
-                Util.WriteLine("Data atual alterada para " + Contexto.Data);
+                Contexto.DataAtual = Contexto.DataAtual.AddDays(1);
+                Util.WriteLine("Data atual alterada para " + Contexto.DataAtual);
             }
         }
     }

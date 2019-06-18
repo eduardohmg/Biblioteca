@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelo\Acao.cs" />
+    <Compile Include="Modelo\Cliente.cs" />
     <Compile Include="Modelo\Obra.cs" />
+    <Compile Include="Modelo\Tarefa.cs" />
+    <Compile Include="Negocio\Atendente.cs" />
     <Compile Include="Negocio\Contexto.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

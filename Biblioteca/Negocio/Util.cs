@@ -15,14 +15,37 @@ namespace Biblioteca.Negocio
         public static void WriteLine(String message)
         {
             Console.WriteLine(message);
+
+            using (StreamWriter w = File.AppendText("log.txt"))
+            {
+                w.WriteLine(message);
+            }
         }
 
-        public static void LerArquivo(String arquivo)
+        public static void LerArquivoEstoque(String arquivo)
         {
             Util.WriteLine("Lendo arquivo " + arquivo);
             XmlSerializer serializer = new XmlSerializer(typeof(List<Obra>));
             TextReader reader = new StreamReader(arquivo);
             Contexto.Estoque = (List<Obra>) serializer.Deserialize(reader);
+            Util.WriteLine("Arquivo lido com sucesso");
+        }
+
+        public static void LerArquivoClientes(String arquivo)
+        {
+            Util.WriteLine("Lendo arquivo " + arquivo);
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Cliente>));
+            TextReader reader = new StreamReader(arquivo);
+            Contexto.Clientes = (List<Cliente>)serializer.Deserialize(reader);
+            Util.WriteLine("Arquivo lido com sucesso");
+        }
+
+        public static void LerArquivoTarefas(String arquivo)
+        {
+            Util.WriteLine("Lendo arquivo " + arquivo);
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Tarefa>));
+            TextReader reader = new StreamReader(arquivo);
+            Contexto.Tarefas = (List<Tarefa>)serializer.Deserialize(reader);
             Util.WriteLine("Arquivo lido com sucesso");
         }
     }

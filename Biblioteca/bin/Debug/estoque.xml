@@ -3,31 +3,31 @@
   <Obra>
     <Id>1</Id>
 	<Nome>Harry-Poter</Nome>
-    <Disponivel>10</Disponivel>
-    <Estoque>20</Estoque>
+    <Disponivel>2</Disponivel>
+    <Estoque>2</Estoque>
   </Obra>
   <Obra>
     <Id>2</Id>
 	<Nome>Piratas-do-Caribe</Nome>
-    <Disponivel>22</Disponivel>
-    <Estoque>33</Estoque>
+    <Disponivel>1</Disponivel>
+    <Estoque>1</Estoque>
   </Obra>
   <Obra>
     <Id>3</Id>
 	<Nome>Garfield</Nome>
-    <Disponivel>10</Disponivel>
-    <Estoque>33</Estoque>
+    <Disponivel>2</Disponivel>
+    <Estoque>2</Estoque>
   </Obra>
   <Obra>
     <Id>4</Id>
 	<Nome>Pele-vs-Maradona</Nome>
-    <Disponivel>30</Disponivel>
-    <Estoque>33</Estoque>
+    <Disponivel>1</Disponivel>
+    <Estoque>1</Estoque>
   </Obra>
   <Obra>
     <Id>5</Id>
 	<Nome>X-Men</Nome>
-    <Disponivel>0</Disponivel>
-    <Estoque>33</Estoque>
+    <Disponivel>2</Disponivel>
+    <Estoque>2</Estoque>
   </Obra>
 </ArrayOfObra>

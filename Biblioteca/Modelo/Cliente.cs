@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.Modelo
 {
-    public class Obra
+    public class Cliente
     {
         public Int32 Id { get; set; }
-	    public String Nome { get;set; }
-        public Int32 Disponivel { get; set; }
-        public Int32 Estoque { get; set; }
-        public DateTime DataAluguel { get; set; }
+        public String Nome { get; set; }
+        public List<Obra> Obras { get; set; }
     }
 }

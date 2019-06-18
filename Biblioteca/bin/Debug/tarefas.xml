@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTarefa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tarefa>
+    <Data>2019-06-01T00:00:00</Data>
+    <Cliente>
+      <Id>1</Id>
+    </Cliente>
+    <Obra>
+      <Id>1</Id>
+    </Obra>
+    <Acao>Aluguel</Acao>
+  </Tarefa>
+  <Tarefa>
+    <Data>2019-06-20T00:00:00</Data>
+    <Cliente>
+      <Id>1</Id>
+    </Cliente>
+    <Obra>
+      <Id>1</Id>
+    </Obra>
+    <Acao>Devolucao</Acao>
+  </Tarefa>
+</ArrayOfTarefa>
