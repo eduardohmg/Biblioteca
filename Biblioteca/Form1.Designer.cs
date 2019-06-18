@@ -28,13 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnTempo = new System.Windows.Forms.Button();
+            this.txtLog = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnTempo
+            // 
+            this.btnTempo.Location = new System.Drawing.Point(12, 12);
+            this.btnTempo.Name = "btnTempo";
+            this.btnTempo.Size = new System.Drawing.Size(75, 23);
+            this.btnTempo.TabIndex = 0;
+            this.btnTempo.Text = "Tempo";
+            this.btnTempo.UseVisualStyleBackColor = true;
+            this.btnTempo.Click += new System.EventHandler(this.btnTempo_Click);
+            // 
+            // txtLog
+            // 
+            this.txtLog.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtLog.Location = new System.Drawing.Point(93, 12);
+            this.txtLog.Multiline = true;
+            this.txtLog.Name = "txtLog";
+            this.txtLog.ReadOnly = true;
+            this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtLog.Size = new System.Drawing.Size(381, 434);
+            this.txtLog.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtLog);
+            this.Controls.Add(this.btnTempo);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnTempo;
+        private System.Windows.Forms.TextBox txtLog;
     }
 }
 

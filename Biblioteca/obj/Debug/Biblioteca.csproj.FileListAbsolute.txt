@@ -7,3 +7,4 @@ D:\Repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cach
 D:\Repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 D:\Repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
 D:\Repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+D:\Repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Form1.resources

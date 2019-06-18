@@ -21,6 +21,8 @@ namespace Biblioteca
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            Contexto.Form = new Form1();
+
             // Ler arquivo de estoque
             Util.LerArquivoEstoque("estoque.xml");
 
@@ -40,11 +42,7 @@ namespace Biblioteca
                 Task.Run(atendente.Run);
             }
 
-            Form form = new Form1();
-            
-            Application.Run(new Form1());
-
-            form.Hide();
+            Application.Run(Contexto.Form);
         }
     }
 }

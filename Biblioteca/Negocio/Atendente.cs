@@ -19,6 +19,12 @@ namespace Biblioteca.Negocio
             
             while (true)
             {
+                if (!Contexto.Tempo)
+                {
+                    await Task.Delay(50);
+                    continue;
+                }
+
                 if (!this.UltimaData.Equals(Contexto.DataAtual))
                 {
                     //Util.WriteLine("Atendente " + this.Nome + ": " + " Novo dia. Resetando contador de atendimentos");

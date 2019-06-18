@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Biblioteca.Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,22 @@ namespace Biblioteca
         public Form1()
         {
             InitializeComponent();
+        }
+
+        public void WriteLineLog(String mensagem)
+        {
+            if (InvokeRequired)
+            {
+                this.Invoke(new Action<String>(WriteLineLog), new object[] { mensagem });
+                return;
+            }
+
+            txtLog.AppendText(mensagem + Environment.NewLine);
+        }
+
+        private void btnTempo_Click(object sender, EventArgs e)
+        {
+            Contexto.Tempo = !Contexto.Tempo;
         }
     }
 }

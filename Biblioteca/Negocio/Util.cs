@@ -12,14 +12,20 @@ namespace Biblioteca.Negocio
 {
     public class Util
     {
-        public static void WriteLine(String message)
+        public static void WriteLine(String mensagem)
         {
-            Console.WriteLine(message);
+            Contexto.SemaforoLog.WaitOne();
+
+            Console.WriteLine(mensagem);
 
             using (StreamWriter w = File.AppendText("log.txt"))
             {
-                w.WriteLine(message);
+                w.WriteLine(mensagem);
             }
+
+            Contexto.Form.WriteLineLog(mensagem);
+
+            Contexto.SemaforoLog.Release();
         }
 
         public static void LerArquivoEstoque(String arquivo)

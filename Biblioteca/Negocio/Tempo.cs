@@ -14,8 +14,11 @@ namespace Biblioteca.Negocio
             {
                 await Task.Delay(Contexto.TempoDia);
 
-                Contexto.DataAtual = Contexto.DataAtual.AddDays(1);
-                Util.WriteLine("Data atual alterada para " + Contexto.DataAtual);
+                if (Contexto.Tempo)
+                {
+                    Contexto.DataAtual = Contexto.DataAtual.AddDays(1);
+                    Util.WriteLine("Data atual alterada para " + Contexto.DataAtual);
+                }
             }
         }
     }
